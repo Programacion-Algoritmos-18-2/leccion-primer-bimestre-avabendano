@@ -25,10 +25,11 @@ class Empleado(object):
         return self.apellido
 
     def obtener_cedula(self):
-        return self.cedual    
+        return self.cedula
 
     def obtener_comision_fija(self):
         return self.comision_fija
     
     def presentar_datos(self):
         cadena = "Información de %s %s\n\tCedula %s"%(self.obtener_nombre(), self.apellido, self.obtener_cedula())
+        return cadena

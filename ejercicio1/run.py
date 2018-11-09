@@ -1,4 +1,4 @@
-from mipaquete import Empleado
+from mipaquete.Empleado import Empleado
 
 e = Empleado()
 e.agregar_nombre('Luis')
